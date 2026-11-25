@@ -103,7 +103,16 @@ project links retain the “Coming soon” label. Presentation swaps are reflect
 - `presentation_date`: optional `YYYY-MM-DD` date, displayed below the project links.
 
 Emails, report documents, submission timestamps, credentials and grading notes are
-not part of the gallery data. Links have not been checked for continued availability.
+not part of the gallery data. Public homepages were visited on November 25, 2026
+to capture previews; this is not a full functionality check.
+
+Preview images are stored locally in `images/`, with provenance in `images/sources.json`.
+Usable Open Graph / Twitter images take priority over homepage screenshots. Images
+are compressed as WebP and displayed without cropping. There are 52 previews: two
+downloaded metadata images and 50 homepage screenshots. Samantha's preview is
+pending capture approval, NOMAD requires sign-in, and Mariajose has no submitted
+URL. Cybelle's pre-existing placeholder also remains without an image. Erika's
+live URL was recovered from her repository README.
 
 ## Add featured images
 
@@ -125,7 +134,7 @@ Then put `images/city-guide.jpg` in the project's `image` field. That path means
 
 Use simple filenames with matching capitalization. `city-guide.jpg` and `City-Guide.jpg` may behave differently on GitHub Pages. Avoid computer-specific paths such as `/Users/your-name/Desktop/photo.jpg`, and do not start a project-relative path with `/`.
 
-Images are shown in a **16:10 landscape frame**. CSS `object-fit: cover` fills the frame and may crop the edges. An image around 1200 × 750 pixels is a useful starting size; compress it before uploading. Missing or broken images leave a neutral area.
+Images are shown in a **16:9 landscape frame**. CSS `object-fit: contain` preserves the whole preview. An image around 1280 × 720 pixels is a useful starting size; compress it before uploading. Missing or broken images leave a neutral area.
 
 A web image address must point directly to an image, not to a sharing page. Keeping images in the project folder is the easiest approach for this example.
 
