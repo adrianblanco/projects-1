@@ -92,6 +92,19 @@ To add a project, copy a complete object into the relevant list and put a comma 
 
 A syntax error in `data.js` can prevent all the cards from appearing. Save often and refresh after small changes.
 
+## Final individual submissions (2026)
+
+The individual gallery includes the 55 students from the final presentation roster.
+Project and repository links come from the November 24 submission export. Missing
+project links retain the “Coming soon” label. Presentation swaps are reflected in
+`presentation_date` (November 27 or December 4, 2026).
+
+- `github_url`: optional repository URL, displayed as a separate GitHub link.
+- `presentation_date`: optional `YYYY-MM-DD` date, displayed below the project links.
+
+Emails, report documents, submission timestamps, credentials and grading notes are
+not part of the gallery data. Links have not been checked for continued availability.
+
 ## Add featured images
 
 Create an `images` folder alongside `index.html` and add your files:

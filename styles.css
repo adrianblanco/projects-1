@@ -190,6 +190,13 @@ h1 {
   font-size:16px;
 }
 
+.presentation-date {
+  display:block;
+  margin-top:14px;
+  color:var(--muted);
+  font-size:16px;
+}
+
 .library {
   padding:64px 0 30px;
 }
